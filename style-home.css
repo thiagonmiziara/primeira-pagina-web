@@ -33,49 +33,55 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+#barbearia {
+    width: 100%;
 }
 
-.produtos li {
-    display: inline-block;
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
     text-align: center;
-    width: 30%;
+    font-weight: bold;
+}
+
+.index {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px
+}
+
+em strong {
+    color: #ff0000;
+}
+
+.itens {
+    font-style: italic
+}
+
+.beneficios {
+    background: #ffffff;
+    padding: 20px;
+}
+
+.espaco {
+    display: inline-block;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
+    width: 20%;
+    margin-right: 15%;
 }
 
-.produtos li:hover {
-    border-color: #c78c19;
-}
-
-.produtos li:active {
-    border-color: #088c19
-}
-
-.produtos li:hover h2 {
-    font-size: 34px;
-}
-
-.produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.produto-drecricao {
-    font-size: 18px;
-}
-
-.produtos-preço {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
+.imagembeneficios {
+    width: 50%;
+    display: block;
 }
 
 footer {
