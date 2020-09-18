@@ -84,8 +84,8 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
     padding: 40px 0;
+    background-color: #000000;
 }
 
 .copyright {
@@ -93,8 +93,6 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
-
-main {}
 
 form {
     margin: 40px 0;
